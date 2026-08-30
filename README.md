@@ -1,6 +1,6 @@
-# Mean Squares frontpage
+# HMD Storefront frontpage
 
-Static-first marketing site for Mean Squares, the local-first storefront and loyalty platform for independent shops.
+Static-first marketing site for HMD Storefront, a Mean Squares company: a local-first storefront and loyalty platform for independent shops.
 
 ## Run locally
 
@@ -10,7 +10,7 @@ No build step or dependency install is required. From this directory:
 python -m http.server 4173
 ```
 
-Open http://localhost:4173. Owner, staff, and customer sign-in choices hand off to the storefront app at `http://localhost:3000/login?role=...`. The storefront currently exposes signup from its login flow; the public app URL should replace localhost before launch.
+Run the local preview command above and open the address it reports. In production, the public frontpage is https://themeansquares.com and role sign-in links hand off to the storefront app at `https://app.themeansquares.com/login?role=...`. The app URL is the production handoff configured for this static site.
 
 ## Pages
 

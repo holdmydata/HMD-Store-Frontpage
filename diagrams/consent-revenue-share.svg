@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 760" role="img" aria-labelledby="crs-title crs-desc">
-  <title id="crs-title">Consent and revenue share — Mean Squares differentiator</title>
+  <title id="crs-title">Consent and revenue share — HMD Storefront differentiator</title>
   <desc id="crs-desc">How customer data flows through the system: customer data opt-in feeds a consent registry per purpose and revocable, which logs a data-use event with an audit hash, feeding a revenue pool, which pays out customer share credits that are spendable in-store or withdrawable in phase two.</desc>
 
   <defs>
