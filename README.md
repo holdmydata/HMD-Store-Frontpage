@@ -10,13 +10,17 @@ No build step or dependency install is required. From this directory:
 python -m http.server 4173
 ```
 
-Open http://localhost:4173. The owner/staff/customer sign-in choices link to the storefront app at `http://localhost:3000/login` with a role query parameter. Set `STOREFRONT_LOGIN_URL` in your deployment process and replace those links when the public app URL is decided.
+Open http://localhost:4173. Owner, staff, and customer sign-in choices hand off to the storefront app at `http://localhost:3000/login?role=...`. The storefront currently exposes signup from its login flow; the public app URL should replace localhost before launch.
 
 ## Pages
 
-- `index.html` — mission, product, how it works, compliance-as-a-feature, CTA
-- `signin.html` — role-aware handoff to the storefront login
-- `privacy.html` and `terms.html` — v1 drafts marked for counsel review
+- `index.html` — mission, product, how it works, static geo-ready member-shop map, and CTA
+- `rewards.html` — one-login, cross-shop points, multi-business redemption, and system rewards explainer
+- `signin.html` — role-aware handoff to the storefront login/signup flow
+- `privacy.html` and `terms.html` — v1 drafts with loyalty disclosures and Do Not Sell/Opt-Out language, marked for counsel review
+- `sitemap.xml` — static XML sitemap for all public pages
 - `script.js` — lightweight parallax, mobile nav, and cookie consent
 
-The site uses no SPA framework, tracker, or analytics dependency. Hero illustration is CSS/HTML so the page stays portable and fast.
+The site uses no SPA framework, tracker, or analytics dependency. Hero and map illustrations are CSS/HTML so the page stays portable and fast.
+
+This repository is ready to push to `holdmydata/HMD-Frontpage`; GitHub authentication and push are intentionally operator-managed.
