@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 760" role="img" aria-labelledby="crs-title crs-desc">
+  <title id="crs-title">Consent and revenue share — Mean Squares differentiator</title>
+  <desc id="crs-desc">How customer data flows through the system: customer data opt-in feeds a consent registry per purpose and revocable, which logs a data-use event with an audit hash, feeding a revenue pool, which pays out customer share credits that are spendable in-store or withdrawable in phase two.</desc>
+
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f4ed"/>
+      <stop offset="1" stop-color="#f3ece5"/>
+    </linearGradient>
+    <linearGradient id="pinkBand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ec4899" stop-opacity="0"/>
+      <stop offset="0.12" stop-color="#ec4899" stop-opacity="0.10"/>
+      <stop offset="0.88" stop-color="#ec4899" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ec4899"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="760" fill="url(#bgC)" rx="18"/>
+
+  <!-- Top accent band -->
+  <rect x="45" y="455" width="630" height="90" rx="10" fill="url(#pinkBand)"/>
+
+  <!-- Title block -->
+  <text x="45" y="62" font-family="'DM Mono', monospace" font-size="12" font-weight="500" fill="#ec4899" letter-spacing="0.12em">THE DIFFERENTIATOR</text>
+  <text x="45" y="90" font-family="'Fraunces', Georgia, serif" font-size="28" font-weight="700" fill="#211d2b" letter-spacing="-0.02em">Your data. Your consent.</text>
+  <text x="45" y="112" font-family="'Fraunces', Georgia, serif" font-size="20" font-weight="500" fill="#706978" letter-spacing="-0.01em">A share of the value back to you.</text>
+
+  <!-- Step 1: Customer data (opt-in) -->
+  <g>
+    <rect x="45" y="150" width="240" height="108" rx="14" fill="#fff" stroke="#ec4899" stroke-width="2"/>
+    <circle cx="90" cy="190" r="22" fill="#f7d4e3" stroke="#ec4899" stroke-width="1.5"/>
+    <!-- person icon -->
+    <circle cx="90" cy="183" r="6" fill="#ec4899"/>
+    <path d="M 78 202 a 12 12 0 1 0 24 0" fill="#ec4899"/>
+    <text x="90" y="222" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="10" fill="#ec4899" letter-spacing="0.05em">OPT-IN</text>
+    <text x="130" y="188" font-family="'Fraunces', Georgia, serif" font-size="15.5" font-weight="700" fill="#211d2b" letter-spacing="-0.01em">Customer data</text>
+    <text x="130" y="210" font-family="'Inter', Arial, sans-serif" font-size="12.5" fill="#211d2b" font-weight="500">Shared only when</text>
+    <text x="130" y="226" font-family="'Inter', Arial, sans-serif" font-size="12.5" fill="#211d2b" font-weight="500">the customer says yes.</text>
+  </g>
+  <!-- Arrow 1→2 -->
+  <line x1="295" y1="204" x2="345" y2="204" stroke="#ec4899" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- Step 2: Consent registry -->
+  <g>
+    <rect x="355" y="150" width="320" height="108" rx="14" fill="#fff" stroke="#ec4899" stroke-width="2"/>
+    <circle cx="400" cy="190" r="22" fill="#f7d4e3" stroke="#ec4899" stroke-width="1.5"/>
+    <!-- registry / card icon -->
+    <rect x="390" y="180" width="20" height="20" rx="3" fill="none" stroke="#ec4899" stroke-width="1.5"/>
+    <line x1="394" y1="186" x2="406" y2="186" stroke="#ec4899" stroke-width="1.5"/>
+    <line x1="394" y1="190" x2="406" y2="190" stroke="#ec4899" stroke-width="1.5"/>
+    <line x1="394" y1="194" x2="402" y2="194" stroke="#ec4899" stroke-width="1.5"/>
+    <text x="405" y="222" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="10" fill="#ec4899" letter-spacing="0.05em">PER-PURPOSE</text>
+    <text x="430" y="188" font-family="'Fraunces', Georgia, serif" font-size="15.5" font-weight="700" fill="#211d2b" letter-spacing="-0.01em">Consent registry</text>
+    <text x="430" y="210" font-family="'Inter', Arial, sans-serif" font-size="12.5" fill="#211d2b" font-weight="500">Each purpose recorded</text>
+    <text x="430" y="226" font-family="'Inter', Arial, sans-serif" font-size="12.5" fill="#211d2b" font-weight="500">and revocable, anytime.</text>
+  </g>
+  <!-- Arrow 2→3 -->
+  <line x1="525" y1="204" x2="575" y2="204" stroke="#ec4899" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- Step 3: Data-use event (audit hash) -->
+  <g>
+    <rect x="585" y="150" width="135" height="108" rx="14" fill="#fff" stroke="#ec4899" stroke-width="2"/>
+    <circle cx="622" cy="190" r="22" fill="#f7d4e3" stroke="#ec4899" stroke-width="1.5"/>
+    <!-- hash icon -->
+    <rect x="612" y="180" width="20" height="20" rx="3" fill="none" stroke="#ec4899" stroke-width="1.5"/>
+    <text x="622" y="194" text-anchor="middle" font-family="'DM Mono', monospace" font-size="11" font-weight="500" fill="#ec4899">#</text>
+    <text x="622" y="222" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="10" fill="#ec4899" letter-spacing="0.05em">AUDIT</text>
+    <text x="630" y="188" font-family="'Fraunces', Georgia, serif" font-size="14" font-weight="700" fill="#211d2b" letter-spacing="-0.01em">Data-use</text>
+    <text x="630" y="206" font-family="'Fraunces', Georgia, serif" font-size="14" font-weight="700" fill="#211d2b" letter-spacing="-0.01em">event</text>
+    <text x="630" y="224" font-family="'Inter', Arial, sans-serif" font-size="11" fill="#706978">Logged with an</text>
+    <text x="630" y="238" font-family="'Inter', Arial, sans-serif" font-size="11" fill="#706978">audit hash.</text>
+  </g>
+
+  <!-- Vertical connector: from step-2/steps box area down to the pool -->
+  <!-- A subtle arrow from the group down -->
+  <path d="M 515 310 C 515 360, 515 360, 515 380" stroke="#706978" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+
+  <!-- Step 4: Revenue pool -->
+  <g>
+    <rect x="225" y="400" width="270" height="120" rx="14" fill="#fff" stroke="#ec4899" stroke-width="2"/>
+    <circle cx="275" cy="448" r="22" fill="#f7d4e3" stroke="#ec4899" stroke-width="1.5"/>
+    <!-- pool / droplet icon -->
+    <path d="M 275 432 q -10 8 -10 16 a 10 10 0 0 0 20 0 q 0 -8 -10 -16 z" fill="#ec4899"/>
+    <text x="315" y="446" font-family="'Fraunces', Georgia, serif" font-size="15.5" font-weight="700" fill="#211d2b" letter-spacing="-0.01em">Revenue pool</text>
+    <text x="315" y="468" font-family="'Inter', Arial, sans-serif" font-size="12.5" fill="#211d2b" font-weight="500">Value from approved</text>
+    <text x="315" y="484" font-family="'Inter', Arial, sans-serif" font-size="12.5" fill="#211d2b" font-weight="500">data use collects here.</text>
+  </g>
+  <!-- Arrow into pool (from the left) -->
+  <line x1="225" y1="460" x2="190" y2="460" stroke="#ec4899" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Arrow out of pool (to the right, toward credits) -->
+  <line x1="495" y1="460" x2="545" y2="460" stroke="#ec4899" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Step 5: Customer share credits -->
+  <g>
+    <rect x="555" y="400" width="165" height="120" rx="14" fill="#fff" stroke="#ec4899" stroke-width="2"/>
+    <circle cx="598" cy="448" r="22" fill="#f7d4e3" stroke="#ec4899" stroke-width="1.5"/>
+    <!-- coin / token icon -->
+    <circle cx="598" cy="448" r="11" fill="none" stroke="#ec4899" stroke-width="1.5"/>
+    <text x="598" y="452" text-anchor="middle" font-family="'DM Mono', monospace" font-size="12" font-weight="500" fill="#ec4899">$</text>
+    <text x="630" y="446" font-family="'Fraunces', Georgia, serif" font-size="15.5" font-weight="700" fill="#211d2b" letter-spacing="-0.01em">Share credits</text>
+    <text x="630" y="468" font-family="'Inter', Arial, sans-serif" font-size="12.5" fill="#211d2b" font-weight="500">Paid out to the</text>
+    <text x="630" y="484" font-family="'Inter', Arial, sans-serif" font-size="12.5" fill="#211d2b" font-weight="500">customer who opted in.</text>
+  </g>
+
+  <!-- Step 6: Spendable / withdrawable (two sub-boxes) -->
+  <g>
+    <!-- Spendable in-store -->
+    <rect x="60" y="580" width="285" height="90" rx="14" fill="#fff" stroke="#706978" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <circle cx="105" cy="618" r="16" fill="#f7d4e3" stroke="#706978" stroke-width="1.5"/>
+    <!-- store icon -->
+    <path d="M 97 612 L 113 612 L 113 624 L 97 624 Z" fill="none" stroke="#706978" stroke-width="1.5"/>
+    <line x1="105" y1="608" x2="105" y2="612" stroke="#706978" stroke-width="1.5"/>
+    <line x1="99" y1="616" x2="111" y2="616" stroke="#706978" stroke-width="1.5"/>
+    <text x="130" y="616" font-family="'Fraunces', Georgia, serif" font-size="15" font-weight="700" fill="#211d2b" letter-spacing="-0.01em">Spendable in-store</text>
+    <text x="130" y="638" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#706978">Use credits right at the counter —</text>
+    <text x="130" y="652" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#706978">rewards, discounts, perks.</text>
+
+    <!-- Withdrawable (phase 2) -->
+    <rect x="370" y="580" width="285" height="90" rx="14" fill="#fff" stroke="#706978" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <circle cx="415" cy="618" r="16" fill="#f7d4e3" stroke="#706978" stroke-width="1.5"/>
+    <!-- wallet / withdraw icon -->
+    <rect x="405" y="610" width="20" height="14" rx="2" fill="none" stroke="#706978" stroke-width="1.5"/>
+    <path d="M 403 610 L 403 606 a 12 12 0 0 1 24 0 L 421 610" fill="none" stroke="#706978" stroke-width="1.5"/>
+    <line x1="409" y1="615" x2="421" y2="615" stroke="#706978" stroke-width="1.5"/>
+    <text x="440" y="616" font-family="'Fraunces', Georgia, serif" font-size="15" font-weight="700" fill="#211d2b" letter-spacing="-0.01em">Withdrawable</text>
+    <text x="440" y="638" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#706978">Cash out your share, on your terms</text>
+    <text x="440" y="652" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#706978">(phase two — built for the long game).</text>
+  </g>
+
+  <!-- Connector from credits to the two spend/withdraw boxes -->
+  <path d="M 637 520 C 637 555 330 555 330 580" stroke="#ec4899" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+  <path d="M 637 520 C 637 555 615 555 615 580" stroke="#ec4899" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+
+  <!-- Bottom caption with the differentiator callout -->
+  <rect x="45" y="695" width="630" height="48" rx="10" fill="#ec4899" opacity="0.08"/>
+  <text x="60" y="723" font-family="'Fraunces', Georgia, serif" font-size="14" font-weight="700" fill="#211d2b" letter-spacing="-0.01em">
+    Compliance as a feature, not a fine-print burden.
+  </text>
+  <text x="60" y="742" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#706978">
+    Consent is visible. Revocable. Auditable. And the value it creates flows back to the people it came from.
+  </text>
+</svg>

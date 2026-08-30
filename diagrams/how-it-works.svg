@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="hww-title hww-desc">
+  <title id="hww-title">How it works — Mean Squares loyalty</title>
+  <desc id="hww-desc">Four steps: shop signs up free, shop adds customers and rewards, customer checks in by phone or name, customer opts into data share and earns a revenue share. A loyalty-points branch adds +10 points per check-in and redeemable rewards.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f4ed"/>
+      <stop offset="1" stop-color="#f5efec"/>
+    </linearGradient>
+    <marker id="arrowPink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ec4899"/>
+    </marker>
+    <marker id="arrowMuted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#706978"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="520" fill="url(#bg)" rx="18"/>
+
+  <!-- Title -->
+  <text x="45" y="52" font-family="'DM Mono', monospace" font-size="12" font-weight="500" fill="#ec4899" letter-spacing="0.12em">HOW IT WORKS</text>
+  <text x="45" y="78" font-family="'Fraunces', Georgia, serif" font-size="26" font-weight="700" fill="#211d2b" letter-spacing="-0.02em">From first hello to favorite place.</text>
+
+  <!-- Step boxes row -->
+  <!-- Step 1 -->
+  <g>
+    <circle cx="95" cy="160" r="26" fill="#f7d4e3" stroke="#ec4899" stroke-width="2"/>
+    <text x="95" y="168" text-anchor="middle" font-family="'DM Mono', monospace" font-size="18" font-weight="500" fill="#ec4899">1</text>
+    <rect x="30" y="200" width="130" height="92" rx="12" fill="#fff" stroke="#dcd4d2" stroke-width="1.5"/>
+    <text x="95" y="226" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-size="15" font-weight="700" fill="#211d2b">Shop signs up</text>
+    <text x="95" y="248" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#706978">Free — no credit card, no chain template.</text>
+    <text x="95" y="266" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="11.5" fill="#706978">Your profile, your rules.</text>
+  </g>
+  <!-- Arrow 1→2 -->
+  <line x1="170" y1="246" x2="250" y2="246" stroke="#ec4899" stroke-width="2" marker-end="url(#arrowPink)"/>
+
+  <!-- Step 2 -->
+  <g>
+    <circle cx="310" cy="160" r="26" fill="#f7d4e3" stroke="#ec4899" stroke-width="2"/>
+    <text x="310" y="168" text-anchor="middle" font-family="'DM Mono', monospace" font-size="18" font-weight="500" fill="#ec4899">2</text>
+    <rect x="245" y="200" width="130" height="92" rx="12" fill="#fff" stroke="#dcd4d2" stroke-width="1.5"/>
+    <text x="310" y="226" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-size="15" font-weight="700" fill="#211d2b">Add customers</text>
+    <text x="310" y="248" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#706978">and rewards.</text>
+    <text x="310" y="266" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="11.5" fill="#706978">Points, gifts, perks your regulars</text>
+    <text x="310" y="278" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="11.5" fill="#706978">will actually want.</text>
+  </g>
+  <!-- Arrow 2→3 -->
+  <line x1="385" y1="246" x2="465" y2="246" stroke="#ec4899" stroke-width="2" marker-end="url(#arrowPink)"/>
+
+  <!-- Step 3 -->
+  <g>
+    <circle cx="525" cy="160" r="26" fill="#f7d4e3" stroke="#ec4899" stroke-width="2"/>
+    <text x="525" y="168" text-anchor="middle" font-family="'DM Mono', monospace" font-size="18" font-weight="500" fill="#ec4899">3</text>
+    <rect x="460" y="200" width="130" height="92" rx="12" fill="#fff" stroke="#dcd4d2" stroke-width="1.5"/>
+    <text x="525" y="226" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-size="15" font-weight="700" fill="#211d2b">Customer checks in</text>
+    <text x="525" y="248" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#706978">by phone or name.</text>
+    <text x="525" y="266" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="11.5" fill="#706978">A quick visit turns into</text>
+    <text x="525" y="278" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="11.5" fill="#706978">a real relationship.</text>
+  </g>
+  <!-- Arrow 3→4 -->
+  <line x1="595" y1="246" x2="675" y2="246" stroke="#ec4899" stroke-width="2" marker-end="url(#arrowPink)"/>
+
+  <!-- Step 4 -->
+  <g>
+    <circle cx="735" cy="160" r="26" fill="#f7d4e3" stroke="#ec4899" stroke-width="2"/>
+    <text x="735" y="168" text-anchor="middle" font-family="'DM Mono', monospace" font-size="18" font-weight="500" fill="#ec4899">4</text>
+    <rect x="670" y="200" width="130" height="92" rx="12" fill="#fff" stroke="#dcd4d2" stroke-width="1.5"/>
+    <text x="735" y="226" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-size="15" font-weight="700" fill="#211d2b">Opt into data share</text>
+    <text x="735" y="248" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#706978">→ earns a revenue share.</text>
+    <text x="735" y="266" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="11.5" fill="#706978">Consent is visible and</text>
+    <text x="735" y="278" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="11.5" fill="#706978">revocable, anytime.</text>
+  </g>
+
+  <!-- Loyalty branch: drops down from step 3 -->
+  <!-- Vertical connector from step-3 box bottom (525, 292) down to branch -->
+  <path d="M 525 292 L 525 360" stroke="#706978" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+  <!-- Branch label -->
+  <rect x="380" y="360" width="290" height="32" rx="8" fill="#ec4899" opacity="0.12"/>
+  <text x="525" y="381" text-anchor="middle" font-family="'DM Mono', monospace" font-size="11" font-weight="500" fill="#ec4899" letter-spacing="0.08em">LOYALTY-POINTS BRANCH</text>
+  <!-- Branch boxes -->
+  <rect x="380" y="398" width="135" height="80" rx="12" fill="#fff" stroke="#ec4899" stroke-width="1.5"/>
+  <circle cx="410" cy="418" r="10" fill="#f7d4e3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="410" y="422" text-anchor="middle" font-family="'DM Mono', monospace" font-size="10" font-weight="500" fill="#ec4899">+</text>
+  <text x="410" y="430" text-anchor="middle" font-family="'DM Mono', monospace" font-size="10" font-weight="500" fill="#ec4899">10</text>
+  <text x="450" y="420" font-family="'Fraunces', Georgia, serif" font-size="13.5" font-weight="700" fill="#211d2b">Points per check-in</text>
+  <text x="450" y="440" font-family="'Inter', Arial, sans-serif" font-size="11" fill="#706978">+10 every time they</text>
+  <text x="450" y="453" font-family="'Inter', Arial, sans-serif" font-size="11" fill="#706978">visit and check in.</text>
+
+  <rect x="545" y="398" width="135" height="80" rx="12" fill="#fff" stroke="#ec4899" stroke-width="1.5"/>
+  <circle cx="575" cy="418" r="10" fill="#f7d4e3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="575" y="424" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="13" font-weight="700" fill="#ec4899">🎁</text>
+  <text x="605" y="420" font-family="'Fraunces', Georgia, serif" font-size="13.5" font-weight="700" fill="#211d2b">Redeem rewards</text>
+  <text x="605" y="440" font-family="'Inter', Arial, sans-serif" font-size="11" fill="#706978">Points turn into gifts,</text>
+  <text x="605" y="453" font-family="'Inter', Arial, sans-serif" font-size="11" fill="#706978">discounts, perks —</text>
+  <text x="605" y="466" font-family="'Inter', Arial, sans-serif" font-size="11" fill="#706978">your shop's choice.</text>
+
+  <!-- Connector between the two branch boxes -->
+  <line x1="515" y1="438" x2="545" y2="438" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrowMuted)"/>
+
+  <!-- Bottom caption -->
+  <text x="45" y="500" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#706978">Keep it local. Keep it transparent. Your customers opt in — and they share in the value their data creates.</text>
+</svg>
