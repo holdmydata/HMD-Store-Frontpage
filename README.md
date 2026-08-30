@@ -23,4 +23,4 @@ Run the local preview command above and open the address it reports. In producti
 
 The site uses no SPA framework, tracker, or analytics dependency. Hero and map illustrations are CSS/HTML so the page stays portable and fast.
 
-This repository is ready to push to `holdmydata/HMD-Frontpage`; GitHub authentication and push are intentionally operator-managed.
+This repository is public at `holdmydata/HMD-Store-Frontpage`. Production hosting is planned on the operator's own VM (self-hosted, Caddy auto-TLS) — see the internal VM hosting plan.
