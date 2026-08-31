@@ -8,3 +8,5 @@
 .diagram-card{width:min(100%,1180px);margin:48px auto 0;padding:18px;background:var(--blush);border:1px solid var(--line);border-radius:18px;overflow:hidden}
 .diagram-card img{display:block;width:100%;max-width:100%;height:auto;border-radius:12px;margin:0 auto}
 @media(max-width:700px){.reward-explainer{grid-template-columns:1fr}.map-placeholder{min-height:290px}.map-label{right:12px;bottom:12px;max-width:75%}.diagram-card{margin-top:28px;padding:10px;border-radius:14px}.diagram-card img{border-radius:9px}}
+
+.cookie[hidden]{display:none!important}
