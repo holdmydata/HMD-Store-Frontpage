@@ -1,8 +1,8 @@
 (() => {
   const cookie = document.querySelector('#cookie');
   const accept = document.querySelector('#cookieAccept');
-  if (localStorage.getItem('ms-cookie-consent') === 'accepted') cookie.hidden = true;
-  accept?.addEventListener('click', () => { localStorage.setItem('ms-cookie-consent', 'accepted'); cookie.hidden = true; });
+  if (cookie && localStorage.getItem('ms-cookie-consent') === 'accepted') cookie.hidden = true;
+  accept?.addEventListener('click', () => { localStorage.setItem('ms-cookie-consent', 'accepted'); if (cookie) cookie.hidden = true; });
   const layers = [...document.querySelectorAll('[data-speed]')];
   let ticking = false;
   const move = () => { const y = window.scrollY; layers.forEach(layer => { layer.style.transform = `translate3d(0, ${Math.min(y * Number(layer.dataset.speed), 220)}px, 0)`; }); ticking = false; };
