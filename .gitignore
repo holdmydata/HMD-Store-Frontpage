@@ -1,0 +1,5 @@
+# QA scratch harnesses + evidence (local-only, not for the public repo)
+docs/_qa*.py
+docs/__pycache__/
+docs/qa-evidence/
+docs/_validate_r8.py
