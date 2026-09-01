@@ -3,3 +3,6 @@ docs/_qa*.py
 docs/__pycache__/
 docs/qa-evidence/
 docs/_validate_r8.py
+
+# internal docs live in Obsidian vault, not pushed
+docs/
